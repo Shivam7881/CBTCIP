@@ -9,7 +9,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
 
 @WebServlet(value="/game")
-public class Game extends HttpServlet {
+public class GameServlet extends HttpServlet {
     
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -67,3 +67,5 @@ public class Game extends HttpServlet {
         req.getRequestDispatcher("index.jsp").forward(req, resp);
     }
 }
+
+

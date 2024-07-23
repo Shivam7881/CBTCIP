@@ -5,12 +5,12 @@
 <head>
 <meta charset="UTF-8">
 <title>Number Guessing Game</title>
-<link rel="stylesheet" type="text/css" href="index.css">
+
 <style>
 /* index.css */
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(to right, #fffcd2 0%, #fcc70f 100%);
+    background: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -102,9 +102,9 @@ p {
 </head>
 
 <body>
-	<h1>Guess the Number and test your prediction power</h1>
+	<h1>Guess the Number</h1>
 	<form action="game" method="post">
-	<label for="guess">Enter the Number of your Choice (1 to 100) : </label>
+	<label for="guess">Enter your guess (1 to 100) : </label>
 	<input type="number" id="guess" name="guess" required min="1" max="100">
 	<button type="submit">Submit</button>
 	</form>
